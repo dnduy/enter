@@ -1,0 +1,97 @@
+
+.homecart{
+     display: block!important;
+}
+
+.menu-toggle-product{
+    float: left;
+    width: 210px;
+}
+.menu-toggle-product ul li a:hover, .site-title a:hover{
+  //  background: none;
+}
+ul.dropdown-menu{
+    //left: 13px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.menu-toggle-product ul.nav-menu > li:first-child{
+    margin-left:0px!important;
+}
+.menu-toggle-product ul.nav-menu ul li a{
+    font-size: 14px;
+    font-weight: normal;
+}
+ul.dropdown-menu.homecart{
+    margin-top: 0px!important;
+}
+.popover{ min-width: 765px!important; }
+.menu-toggle-product  .popover-content ul li{
+    float: left;
+    width: 30%;
+}
+.menu-toggle-product  .popover-content ul li a{
+    color: #000;
+    font-weight: normal;
+    
+}
+.menu-toggle-product  .popover-content ul li a:hover{
+    color: #019DDD;
+    text-decoration: none;
+}
+ul.dropdown-menu{ width: 240px;}
+.popover{
+    background: url(images/img-menu.jpg) no-repeat right bottom #fff;
+}
+.menu-toggle-product  ul.nav-menu ul.simple{ background: transparent}
+.menu-toggle-product  ul.nav-menu ul.simple li a:hover{
+    background: none!important;
+    color: #019DDD!important;
+    
+}
+.menu-toggle-product  ul.nav-menu ul.simple li{ list-style: circle;}
+.popover-title{ color:#019DDD;font-weight: bold; }
+li.sub-popover {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+   
+}
+li.sub-popover a{width: 100%; width: 240px!important; padding: 10px; font-weight: bold;}
+.popover{ top: 0!important;}
+.maintainHover:hover{
+    
+}
+.nav{ margin: 0px;}
+.nav > li > a:hover, .nav > li > a:focus,.nav > li > a {
+   text-decoration: none;
+   background: none!important;
+   
+}
+.nav > li > a{
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a.atop {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    outline: 0;
+    padding: 0 19px 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    overflow: hidden;
+    border-top: 1px solid #DFDFDF;
+    background: url("images/bullet_1.png") no-repeat 220px center;
+}
+li.sub-popover:last-child,li.sub-popover:first-child a{border-color: transparent;}
+.sb-shop{
+    display: block;
+    height: 425px;
+    width: 200px;
+}
